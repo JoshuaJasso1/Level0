@@ -10,7 +10,7 @@ void setup() {
   woohoo = minim.loadSample("/Users/League/Google Drive/league-sounds/homer-woohoo.wav");
 }
 void draw() {
-  if (mouseX >1600 && mouseY >546 && mouseX <1625 && mouseY <620) {
+  if (mouseX >1600 && mouseY >530 && mouseX <1625 && mouseY <620) {
     playWoohoo();
   } else {
     playDoh();
